@@ -1,0 +1,114 @@
+.logo {
+  margin: 50px 0 0 0;
+
+}
+
+.study {
+  padding: 25px;
+  line-height: 1.2;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.stronga{
+  font-weight: bold;
+}
+
+.study__img-section {
+
+  margin-top: 49px;
+}
+
+.study__img-section:first-of-type {
+
+  margin-top: 0;
+}
+
+.study__img {
+  width: 100%;
+}
+
+.study__img-grid {
+  display: -ms-grid;
+  display: grid;
+
+  -ms-grid-columns: 1fr 10px 1fr;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.spoiler input, .spoiler div  { 
+  display: none; 
+}
+
+.spoiler :checked ~ div {
+  display: block;
+}
+
+/* Закрытый спойлер */
+.spoiler label::before {
+  content: '►'; 
+  margin-right: 5px;
+}
+/* Открытый спойлер */
+.spoiler :checked + label::before {
+  content: '▼';
+}
+
+.table{
+    width: 600%;
+}
+
+.table_col {
+  font-size: 20px;
+  background: white;
+  border-collapse: collapse;
+  color: black;
+  text-align: left;
+}
+.table_col th:first-child, .table_col td:first-child {
+color: black;
+border-left: none;
+}
+.table_col th {
+
+border-bottom: 2px solid black;
+border-right: 20px solid white;
+border-left: 20px solid white;
+padding: 8px 10px;
+
+}
+.table_col td {
+border-right: 20px solid white;
+border-left: 20px solid white;
+padding: 12px 10px;
+color: #8b8e91;
+}
+
+
+
+
+@media (max-width: 800px) {
+  .study {
+    padding: 0 20px;
+  }
+
+  .study__img-section {
+    margin-top: 40px;
+  }
+}
+
+@media (max-width: 480px) {
+  .study {
+    padding: 0 10px;
+  }
+
+  .study__img-section {
+    margin-top: 27px;
+  }
+
+  .study__img-section_disabled {
+    display: none;
+  }
+}
+

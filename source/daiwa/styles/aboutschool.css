@@ -1,0 +1,134 @@
+.logo {
+  margin: 50px 0 0 0;
+
+}
+
+.aboutschool {
+  padding: 25px;
+  line-height: 1.2;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.stronga{
+  font-weight: bold;
+}
+
+.aboutschool__img-section {
+
+  margin-top: 49px;
+}
+
+.aboutschool__img-section:first-of-type {
+
+  margin-top: 0;
+}
+
+.aboutschool__img {
+  width: 100%;
+}
+
+.aboutschool__caption {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 19px;
+  color: rgba(0, 0, 0, 0.5);
+  margin-top: 10px;
+}
+
+.aboutschool__img-grid {
+  display: -ms-grid;
+  display: grid;
+
+  -ms-grid-columns: 1fr 10px 1fr;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.aboutschool__video {
+  max-width: 836px;
+  margin: 49px auto 0;
+  border: none;
+}
+
+.aboutschool__video-inner {
+  position: relative;
+  height: 0;
+  border: none;
+  padding-top: 78%;
+}
+
+.aboutschool__video-content {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.swiper-container {
+  width: 100%;
+  height: 100%;
+}
+
+.aboutschool__slider {
+  display: none;
+  width: 100%;
+}
+
+.aboutschool__caption_slider {
+  display: flex;
+  justify-content: space-between;
+}
+
+.swiper-pagination-fraction {
+  width: fit-content;
+}
+
+@media (max-width: 800px) {
+  .aboutschool {
+    padding: 0 20px;
+  }
+
+  .aboutschool__caption {
+    font-size: 15px;
+    line-height: 17px;
+  }
+
+  .aboutschool__video {
+    margin-top: 40px;
+  }
+
+  .aboutschool__img-section {
+    margin-top: 40px;
+  }
+}
+
+@media (max-width: 480px) {
+  .aboutschool {
+    padding: 0 10px;
+  }
+
+  .aboutschool__caption {
+    font-size: 13px;
+    line-height: 15px;
+  }
+
+  .aboutschool__video {
+    margin-top: 27px;
+  }
+
+  .aboutschool__img-section {
+    margin-top: 27px;
+  }
+
+  .aboutschool__img-section_disabled {
+    display: none;
+  }
+
+  .aboutschool__slider {
+    display: block;
+    margin-top: 27px;
+  }
+}

@@ -1,0 +1,87 @@
+.logo {
+  margin: 50px 0 0 0;
+
+}
+
+.acsess {
+  padding: 25px;
+  line-height: 1.2;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.stronga{
+  font-weight: bold;
+}
+
+.acsess__img-section {
+
+  margin-top: 49px;
+}
+
+.acsess__img {
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.table{
+    width: 600%;
+}
+
+.table_col {
+  font-size: 20px;
+  background: white;
+  border-collapse: collapse;
+  color: black;
+  text-align: left;
+}
+.table_col th:first-child, .table_col td:first-child {
+color: black;
+border-left: none;
+}
+.table_col th {
+
+border-bottom: 2px solid black;
+border-right: 20px solid white;
+border-left: 20px solid white;
+padding: 8px 10px;
+
+}
+.table_col td {
+border-right: 20px solid white;
+border-left: 20px solid white;
+padding: 12px 10px;
+color: #8b8e91;
+}
+
+
+
+
+
+@media (max-width: 800px) {
+  .aboutschool {
+    padding: 0 20px;
+  }
+
+  .aboutschool__img-section {
+    margin-top: 40px;
+  }
+}
+
+@media (max-width: 480px) {
+  .aboutschool {
+    padding: 0 10px;
+  }
+
+  .aboutschool__img-section {
+    margin-top: 27px;
+  }
+
+  .aboutschool__img-section_disabled {
+    display: none;
+  }
+
+}

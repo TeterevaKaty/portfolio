@@ -1,0 +1,111 @@
+
+<!DOCTYPE html>
+<html lang="ru" prefix="og: http://ogp.me/ns#">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Daiwa academy</title>
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:url" content="aboutschool.html" />
+    <meta property="og:title" content="Daiwa academy" />
+    <meta
+      property="og:description"
+      content="О школе Daiwa academy"
+    />
+    <meta property="og:locale" content="ru_RU" />
+
+    <link
+      rel="apple-touch-icon-precomposed"
+      sizes="152x152"
+      href="img/daiwalogo.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="img/daiwalogo.png"
+      sizes="32x32"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="img/daiwalogo.png"
+      sizes="16x16"
+    />
+    <link
+      rel="shortcut icon"
+      href="img/daiwalogo.png"
+      type="image/png"
+    />
+    <link rel="stylesheet" href="styles/common/reset.css" />
+    <link rel="stylesheet" href="styles/common/main.css" />
+    <link rel="stylesheet" href="styles/messege.css" />
+
+  </head>
+  <body>
+    <header class="nav nav_not-main">
+      <a href="index.html" class="logo logo-container">Daiwa academy</a>
+      <div class="menu menu_main">
+        <a href="aboutschool.html">О школе</a>
+        <a href="life.html">Обучение</a>
+        <a href="life.html">Жизнь студентов</a>
+        <a href="admission.html">Поступление</a>
+        <a href="acsess.html">Контакты</a>
+      </div>
+      <a
+        class="header-support"
+        href="messege.html"
+        target="_blank"
+        >Написать нам</a
+      >
+    </header>
+
+    <main class="messege">
+      <h1 class="page__title">Напешите нам</h1>
+      <p class="page__subtitle"></p>  
+
+        <div class="send send_messege">
+          
+          <form metod="post" action="#" id="contact">
+            <input type="text" name="messege_name" placeholder="ваше имя">
+            <input type="text" name="messege_email" placeholder="ваш email">
+            <textarea name="messege_text" id=""></textarea>
+            <input class="btn" type="submit" value="отправить">
+          </form>
+        </div>
+
+    </main>
+    <footer class="footer">
+      <p class="c">
+        © 2017 Daiwa academy
+        </a>
+      </p>
+      <div class="lang">
+        <a href="">Рус</a>
+        <span>|</span>
+        <a href="en">En</a>
+      </div>
+    </footer>
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+      const swiper = new Swiper(".swiper-container", {
+        // Optional parameters
+        direction: "horizontal",
+        loop: true,
+
+        // If we need pagination
+        pagination: {
+          el: ".aboutschool__pagination",
+          type: "fraction",
+        },
+      });
+    </script>
+  </body>
+</html>
